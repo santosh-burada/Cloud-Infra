@@ -7,7 +7,7 @@ resource "azurerm_subnet" "vpn" {
 
 }
 
-resource "azurerm_subnet" "vpn" {
+resource "azurerm_subnet" "vpn2" {
 
   name                 = "Subnet2"
   resource_group_name  = azurerm_resource_group.main.name
